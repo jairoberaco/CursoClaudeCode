@@ -1,16 +1,10 @@
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <>
-    <nav className="flex items-center gap-4 bg-slate-800 px-8 py-4">
-      <button className="px-5 py-2 rounded-md bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors">
-        Inicio
-      </button>
-      <button className="px-5 py-2 rounded-md bg-slate-600 text-white font-medium hover:bg-slate-500 transition-colors">
-        SGC
-      </button>
-    </nav>
+    <Header />
     <section className="relative flex flex-1 items-center justify-center bg-gradient-to-br from-slate-900 to-slate-700 px-6 overflow-hidden">
       <svg
         className="absolute inset-0 w-full h-full opacity-10"
